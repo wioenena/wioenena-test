@@ -5,7 +5,7 @@
 
 # Maintainer: Barış Köprülü <wioenena@gmail.com>
 pkgname=wioenena-test
-pkgver=1.2
+pkgver=1.3
 pkgrel=1
 epoch=
 pkgdesc="This package for testing!"
