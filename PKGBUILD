@@ -5,7 +5,7 @@
 
 # Maintainer: Barış Köprülü <wioenena@gmail.com>
 pkgname=wioenena-test
-pkgver=1.3
+pkgver=1.4
 pkgrel=1
 epoch=
 pkgdesc="This package for testing!"
@@ -26,7 +26,7 @@ install=
 changelog=
 source=("wioenena-test")
 noextract=()
-sha256sums=("f2077fa22065ad825b14b289bace138e010b8554171b96d54467d4b9e859a8a4")
+sha256sums=("992e80a48e18c065997a4bfd871f79fd6cea5d83fbeb7ecce96159c2bcc89f30")
 validpgpkeys=()
 
 
