@@ -1,9 +1,11 @@
 pkgbase = wioenena-test
 	pkgdesc = This package for testing!
-	pkgver = 1
+	pkgver = 1.2
 	pkgrel = 1
 	url = https://wioenena.com
 	arch = x86_64
 	license = GPL
+	source = wioenena-test
+	sha256sums = f2077fa22065ad825b14b289bace138e010b8554171b96d54467d4b9e859a8a4
 
 pkgname = wioenena-test
