@@ -5,7 +5,7 @@
 
 # Maintainer: Barış Köprülü <wioenena@gmail.com>
 pkgname=wioenena-test
-pkgver=1
+pkgver=1.2
 pkgrel=1
 epoch=
 pkgdesc="This package for testing!"
@@ -24,12 +24,13 @@ backup=()
 options=()
 install=
 changelog=
-source=()
+source=("wioenena-test")
 noextract=()
-sha256sums=()
+sha256sums=("f2077fa22065ad825b14b289bace138e010b8554171b96d54467d4b9e859a8a4")
 validpgpkeys=()
 
 
 package() {
+  cd "$srcdir"
   install -Dm755 "$srcdir/wioenena-test" "$pkgdir/usr/bin/wioenena-test"
 }
